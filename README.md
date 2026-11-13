@@ -51,7 +51,11 @@ A private skill keeps essential correctness and execution-risk checks. A public 
 
 A spelling fix receives affected checks. A meaningful behavior change receives representative evaluation. The workflow starts at the current stage and reuses decisions and authorization already given.
 
-## A real pilot
+## Completed v0.1.0
+
+The first usable version is complete. Focused checks exercised private-skill completion from a settled brief, a concise supplied-evidence review, and an exact spelling correction. Structural validation and the refreshed static scan cover the current package. See [version notes](docs/releases/v0.1.0.md) for scope and limits.
+
+## Initial pilot
 
 In a local Repo Cleaner revision, the skill-assisted worker added guidance for matching public scan claims to the current artifact and scan configuration. It also qualified outdated scan claims as historical. All six existing repository integrity tests passed.
 

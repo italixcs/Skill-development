@@ -3,7 +3,7 @@
 Agreed with the project owner on 2026-11-13.
 
 - Coordinate existing tools; do not build a scanner, agent harness, evaluator service, or second complete authoring framework.
-- Use one small entry point and references loaded only for the current stage. The draft main file is 77 lines; line count is a design measure, not a quality score.
+- Use one small entry point and references loaded only for the current stage. The initial main file was 77 lines; v0.1.0 is 82 lines. Line count is a design measure, not a quality score.
 - Bundle a reviewed Skill Bench workflow so a separate installation is unnecessary. Keep the standalone skill available. Source: commit 2d3b596b3c7d28b92d840e898a0c84e60b2f5577. Copy its instructions and contracts; adjust its protocol link to the local reference. Record future updates deliberately.
 - Preserve the existing project MIT license and attribution. The owner authorized bundling their Skill Bench material; external projects are referenced, not vendored.
 - Prefer static SkillSpector scans with no semantic inference. Preserve findings and incomplete coverage; unresolved serious findings block public readiness.
@@ -39,3 +39,7 @@ The host exposes a shared filesystem and globally available instructions; separa
 - Inspect: https://inspect.aisi.org.uk/
 
 Upstream procedures can conflict. Examples include owning evaluation inside an authoring helper, requiring a failing test before every edit, host-specific metadata, and automatic saving. Select one procedure per stage and retain the actual host/user instruction precedence.
+
+## Completion boundary
+
+The owner requested completion of the usable first version. Separate implementation completion from public visibility, release creation, and optional host-support expansion. Test bounded instruction refinements with focused behavioral checks when no comparative claim is made. Preserve the original paired pilot and its limitations.

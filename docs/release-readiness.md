@@ -1,6 +1,6 @@
 # Public release readiness
 
-Recommendation: publish as an **experimental reusable workflow** once the remaining checks below are complete and the owner authorizes visibility/publication. Keep the repository private until that decision.
+The usable **v0.1.0 implementation is complete**. Recommend public distribution as an experimental reusable workflow under its documented manual-invocation and compatibility limits. Keep the repository private until the owner authorizes visibility/publication.
 
 Its purpose is reusable development rules, appropriate tool selection, and less repeated user instruction. Improved model capability, better outputs, faster execution, and quantified time savings are not release claims.
 
@@ -13,14 +13,13 @@ Its purpose is reusable development rules, appropriate tool selection, and less 
 - Honest pilot results, including two ties and a narrow baseline preference.
 - Separation of installable instructions, public docs, and private raw evidence.
 
-## Remaining before a public announcement
+## Publication and support boundaries
 
-1. Exercise one documented native installation/invocation route. Fix any packaging or discovery issue and update its evidence status. Other routes may remain explicitly documentation-checked.
-2. Run a small end-to-end workflow with the tools actually available. Check relevant tool selection, proportional work, correct missing-tool handling, and respected permissions. Record user corrections or reminders; do not infer time savings from output quality.
-3. Review the final distributed files and repository history for private data, temporary links, attribution, and truthful claims. Preserve the license and upstream provenance.
-4. Confirm the package still matches the security manifest. If package contents or relevant scan settings changed, repeat affected checks.
-5. Choose the initial experimental version and prepare concise release notes around actual behavior and known limitations.
-6. Obtain explicit authorization to change visibility and publish a release. Permission to commit/push to main does not authorize either.
+1. The initial experimental version and [version notes](releases/v0.1.0.md) are prepared. No public release or tag has been created.
+2. The current package has refreshed [security evidence](security.md), structural/copy checks, and focused [behavioral verification](validation.md). Preserve the declared scope and limits.
+3. Before any authorized publication, confirm the distributed bytes still match that evidence and review the final public files/history for private information and attribution.
+4. Obtain explicit authorization to change visibility and publish. Permission to commit/push to main does not authorize either.
+5. Native installation/discovery tests and broader live tool-coordination trials are follow-up support work. Do them before claiming those routes are runtime-tested or claiming measured supervision/time savings. They do not keep the completed manual-invocation version in draft.
 
 No fixed dataset, statistical superiority claim, new scanner, plugin framework, banner, or additional badges are required to publish an honest experimental workflow.
 

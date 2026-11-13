@@ -1,5 +1,13 @@
 # Evaluation routing
 
+## Match evaluation to the skill's purpose
+
+Choose criteria from the user's intended benefit before choosing a test format. A workflow skill can succeed through correct tool selection, appropriate scope, preserved decisions, fewer repeated instructions, and respected permissions even when final output quality is unchanged. Keep correctness and honesty as guardrails; do not reward ceremony or merely mentioning tools.
+
+For Skill Development itself, check whether the agent selects available tools, skips irrelevant stages, handles missing capabilities honestly, reuses settled context, and completes authorized work. Record actual reminders/corrections when observed. Output-quality comparisons alone do not measure prompting effort or supervision saved. If comparing a full manual brief with a shorter skill invocation, disclose the unequal prompt setup and treat it as a workflow-use study, not a controlled capability comparison.
+
+Use a focused behavioral smoke check for a bounded rule refinement when it directly tests the affected decision and no comparative claim is needed. Use the paired method for usefulness comparisons, substantive workflow changes, or ambiguous regressions. Label single-agent smoke checks accurately and preserve their limits.
+
 ## Select the existing method
 
 Use Skill Bench for a small comparison. The bundled workflow and contracts are reused from Italixcs/Skill-Bench at commit 2d3b596b3c7d28b92d840e898a0c84e60b2f5577. Read skill-bench.md and bench-protocol.md, both linked directly from SKILL.md. The workflow's original frontmatter is retained as source data, not another independently installed skill.

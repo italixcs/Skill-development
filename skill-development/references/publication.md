@@ -4,6 +4,8 @@
 
 Prepare the candidate and reviewable evidence within authorized scope. Commit, push, create a release, change visibility, publish a report, or contact anyone only when explicitly authorized for that action and destination. Do not treat "prepare for release" as publication permission.
 
+If asked only to assess supplied evidence, answer that readiness question, the material blockers, and the next relevant checks. Keep unrelated release steps out of the response. Clearly distinguish synthetic test entries, historical reports, and findings established about the real current candidate; investigate genuine findings without presenting a fixture as a real vulnerability.
+
 Private skills need clear usage and maintenance information appropriate to their user. Omit public marketing requirements. Public skills need the checks below.
 
 ## Use Repo Cleaner conditionally
@@ -26,6 +28,8 @@ Before claiming readiness, verify:
 7. README, examples, security/evaluation summaries, and release notes match the exact candidate. Link evidence rather than duplicating full reports.
 8. The target host/version evidence and known limitations are accurate; optional tools are clearly optional.
 9. The actual remote actions have explicit authorization. Readiness itself grants none.
+
+An explicitly manual-only or documentation-checked host route can be documented honestly without claiming native runtime support. Untested additional hosts do not prevent completion of the skill or release under a narrower, verified claim. Do not require output-quality superiority to publish a workflow whose stated purpose is process consistency.
 
 If the package changes, identify which checks and public claims are affected and repeat those only. Final packaging must preserve the reviewed file contents; verify identity again before an authorized release.
 

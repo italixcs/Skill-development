@@ -1,8 +1,24 @@
 # Validation record
 
-Date: 2026-11-13. Status: experimental development workflow. The initial pilot did not demonstrate output-quality uplift; reduced prompting and supervision were not measured. Its workers did not commit, push, install, release, or change remote settings.
+Date: 2026-11-13. Status: completed experimental v0.1.0. The initial pilot did not demonstrate output-quality uplift; reduced prompting and supervision were not measured. Its workers did not commit, push, install, release, or change remote settings.
 
-## Candidate
+## Completed v0.1.0
+
+Current package identity: `5f1688f290486e691745f5d25b7258d13327db6217e01078f8477f132d9e4395`. The entry point is 82 lines. All 10 distributed files are recorded in the [refreshed scan manifest](security/skillspector-v0.1.0.json).
+
+The final instruction refinement makes workflow fidelity explicit, keeps supplied-evidence reviews narrow, and separates implementation completion from public-release decisions. Three fresh, explicitly instructed task workers exercised the affected behavior:
+
+| Focused task | Observed artifact | Verification |
+| --- | --- | --- |
+| Finish a private skill from an approved brief | Usable release-note-review folder and a completion note; missing public-only tools did not prevent completion | Controller inspected structure/scope; separate artifact reviewer passed it, with execution-claim limits |
+| Assess a supplied static-report claim | Short scoped answer, preserving synthetic-report and execution limits | Separate artifact reviewer passed it |
+| Correct one spelling error | Exact expected README content, with no extra project files | Controller exact-content/file-set assertions passed; separate reviewer confirmed final spelling but lacked retained before-state evidence for an independent delta judgment |
+
+These are bounded behavioral smoke checks, not a new paired comparison, automatic-discovery test, or proof of time savings. Filesystem separation was instruction-only. Artifact review does not establish every internal tool decision or absence of all external actions.
+
+The final package passed the existing structural validator, resource/link checks, and copy-install checks. SkillSpector 2.12.0 completed a refreshed static scan of all 10 package files; the same LOW EA3 prohibition match remains at SKILL.md line 52, triaged without suppression. See [security evidence](security.md).
+
+## Initial pilot candidate
 
 Package identity: `25cbda2a7683318cd206a8851a7e92a7ad3f226ecb841c7716140cf5e2d58845`.
 
@@ -17,7 +33,7 @@ The package has 10 files: a 77-line entry point, seven conditional references, o
 - Frozen package identity: unchanged after the pilot.
 - These establish structural properties, not native discovery or cross-host runtime behavior.
 
-## SkillSpector
+## Initial SkillSpector scan
 
 NVIDIA SkillSpector 2.12.0 completed a static-only scan with --no-llm and --fail-on-incomplete. It reported all 10 files fully inspected in the configured scope, without exclusions or suppressions. No semantic inference ran.
 

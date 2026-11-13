@@ -1,6 +1,6 @@
 # Security scan evidence
 
-This is a summary of an actual static scan, not certification or a guarantee of safety.
+This records the refreshed static scan of the completed v0.1.0 package. It is not certification or a guarantee of safety. The [initial pilot scan](security/skillspector-2026-11-13.json) is retained as historical evidence.
 
 | Item | Recorded value |
 | --- | --- |
@@ -13,15 +13,15 @@ This is a summary of an actual static scan, not certification or a guarantee of 
 | Findings | One LOW EA3; no reported critical/high findings |
 | Triage | Author/controller review: false positive; finding retained |
 
-The [sanitized record and full file-hash manifest](security/skillspector-2026-11-13.json) bind this evidence to package identity:
+The [sanitized record and full file-hash manifest](security/skillspector-v0.1.0.json) bind this evidence to package identity:
 
-`25cbda2a7683318cd206a8851a7e92a7ad3f226ecb841c7716140cf5e2d58845`
+`5f1688f290486e691745f5d25b7258d13327db6217e01078f8477f132d9e4395`
 
 The identity is SHA256 of a JSON-serialized mapping from sorted package-relative paths to their SHA256 file digests, using Python json.dumps(sort_keys=True) defaults. It describes package content, not a repository commit or signature.
 
 ## Retained finding
 
-EA3 matched "expand scope" at SKILL.md line 49. The sentence says:
+EA3 matched "expand scope" at SKILL.md line 52. The sentence says:
 
 > Do not let a helper silently expand scope, permissions, evaluation budget, or publication actions.
 
