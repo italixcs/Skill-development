@@ -76,3 +76,5 @@ Ask for a private skill with a concrete recurring task, or point at an existing 
 If evaluation requires independent agents that the host cannot provide, the result should identify the blocked comparison. If SkillSpector is missing, public-release security readiness remains incomplete.
 
 See [validation](validation.md) for the exact evidence and limitations.
+
+For a full local setup and a small public-intended development task, follow the [public-skill exercise](public-exercise.md). It installs the workflow skills in a disposable lab and keeps the candidate local.

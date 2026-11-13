@@ -43,3 +43,11 @@ Upstream procedures can conflict. Examples include owning evaluation inside an a
 ## Completion boundary
 
 The owner requested completion of the usable first version. Separate implementation completion from public visibility, release creation, and optional host-support expansion. Test bounded instruction refinements with focused behavioral checks when no comparative claim is made. Preserve the original paired pilot and its limitations.
+
+## Prompt reuse and v0.1.1
+
+Publish both actual task prompts and the comparable outcome as evidence of reusable instruction, without treating shorter user text as fewer total tokens or measured human savings. Preserve the original pilot and its less favorable verdict. Replace the experimental status badge with a version badge, not a stability claim.
+
+The synthetic study exposed a handling gap: final-file cleanup does not undo a value already printed in tool output. Require value suppression before inspection and record this as a privacy refinement, with focused verification and a fresh package scan. Keep the original study bound to v0.1.0.
+
+Use a disposable local release-note-review project for the next public-workflow exercise. Prepare licensing, evaluation, scanning, and presentation without making any repository public or publishing a release.

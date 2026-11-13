@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "artifact_identity": "8d99d42133a1417a12236728988d97d5594b6806d1207bdcaf9a2d41a2976780",
+  "identity_definition": "SHA256 of JSON-serialized sorted mapping from relative paths to file SHA256 digests, using Python json.dumps(sort_keys=True) defaults",
+  "file_sha256": {
+    "LICENSE": "c4ff2c1fe30dae18fe0cd4a1c2c3cf074820f783135c44c93fdf4aa6d1bbef5f",
+    "SKILL.md": "10c718cdbaeeb78fa1250122aa64ffbbaa19a0efbf4e13a4708fbaa91e474fd1",
+    "agents/openai.yaml": "bfcd50ecc7f6044b22679cb7451b381b9109fe31df1da92d77270a7762959276",
+    "references/bench-protocol.md": "adbbf0846075c7a5200d0dc19fb0ee7698a138e18af55e157c841c84ed15261e",
+    "references/compatibility.md": "05cd0ddba91d6f435566240c6b9617a0163ea16b0ca75d48d21f5a02a66ed268",
+    "references/design.md": "df551f546f8e938892d193fc9c696ebd6b85ad621e721f8f191f0ecbe6875330",
+    "references/evaluation.md": "02801b6d062584b01d8fe3909215bb70215c91d555c7e003c3c82abe9158a0a6",
+    "references/publication.md": "cf5eb65e33d7635ba624a76005df87e9036daa226bb887395ff2c4aa42312795",
+    "references/security.md": "907b514ce1de9aeb96d09ba0268d7957db3a9b1433fa12fece6c18e2b930fd2c",
+    "references/skill-bench.md": "221ea20084318d8e379aae044c4139844eba13dd572b16ef536275f7548fb85f"
+  },
+  "scanner": "NVIDIA SkillSpector",
+  "version": "2.12.0",
+  "mode": "static --no-llm",
+  "command_options": [
+    "--no-llm",
+    "--fail-on-incomplete",
+    "--format",
+    "json"
+  ],
+  "completed": true,
+  "fully_inspected_files": 10,
+  "scope_exclusions": [],
+  "active_findings": [
+    {
+      "id": "EA3",
+      "severity": "LOW",
+      "path": "SKILL.md",
+      "line": 53,
+      "text_match": "expand scope"
+    }
+  ],
+  "suppressed_count": 0,
+  "triage": [
+    {
+      "id": "EA3",
+      "decision": "false_positive",
+      "reviewer": "author/controller; not an independent security review",
+      "reason": "The matched phrase occurs in an explicit prohibition: Do not let a helper silently expand scope, permissions, evaluation budget, or publication actions. It grants no scope expansion. The instruction is retained; the finding is not suppressed."
+    }
+  ],
+  "limitations": [
+    "No semantic inference",
+    "No dynamic execution or host isolation test",
+    "Dependency artifact inspection not requested; package has no executable scripts or dependency manifest",
+    "No guarantee of safety or vendor endorsement"
+  ],
+  "document_kind": "sanitized_summary_of_actual_scanner_output",
+  "raw_report_policy": "Private raw report retained outside repository; this file is a selected factual projection, not original scanner JSON.",
+  "package_version": "0.1.1"
+}

@@ -1,10 +1,22 @@
 # Validation record
 
-Date: 2026-11-13. Status: completed experimental v0.1.0. The initial pilot did not demonstrate output-quality uplift; reduced prompting and supervision were not measured. Its workers did not commit, push, install, release, or change remote settings.
+Date: 2026-11-13. Current revision: v0.1.1. These are bounded local checks, with the execution and isolation limits below.
+
+## v0.1.1 privacy refinement and presentation
+
+Current package identity: `8d99d42133a1417a12236728988d97d5594b6806d1207bdcaf9a2d41a2976780`. The entry point is 83 lines; all 10 files appear in the [current static scan manifest](security/skillspector-v0.1.1.json).
+
+A fresh explicitly instructed worker inspected a synthetic context/environment fixture using value-suppressed, allowlisted local reads. Its delivered summary contained the expected nonsensitive purpose/constraint and key names, without the fake credential-like marker. The controller checked those delivered files and verified the fixture remained unchanged during deliverable writing. There was no pre-inspection baseline proof, and this was not a full audit of every raw trace or a real credential incident. It does not establish universal safe handling or enforced filesystem isolation.
+
+The structural validator passed. SkillSpector 2.12.0 completed a static scan of the full current package, retaining one LOW EA3 prohibition match at SKILL.md line 53 without suppression. No semantic analysis or containment test ran.
+
+The [prompt comparison](examples/prompt-comparison.md) publishes the exact 54-word and 309-word requests from one fresh, blind-reviewed task pair using **v0.1.0**. The reviewer found the outputs functionally comparable. Prompt length excludes common scaffolding and stored skill content. Human writing-time ranges are assumptions, not measured outcomes; this is not a paired evaluation of v0.1.1.
+
+The banner and exact SVG comparison graphic received local image inspection. File links, scan identity, copy routes, prompt counts, and Bash guide syntax are checked locally before the repository update. Native GitHub desktop/mobile and light/dark rendering were not verified: the earlier Chromium attempt was blocked by a socket permission error. The full [public-skill exercise](public-exercise.md) and native client discovery remain pending.
 
 ## Completed v0.1.0
 
-Current package identity: `5f1688f290486e691745f5d25b7258d13327db6217e01078f8477f132d9e4395`. The entry point is 82 lines. All 10 distributed files are recorded in the [refreshed scan manifest](security/skillspector-v0.1.0.json).
+Historical v0.1.0 package identity: `5f1688f290486e691745f5d25b7258d13327db6217e01078f8477f132d9e4395`. The entry point is 82 lines. All 10 distributed files are recorded in the [refreshed scan manifest](security/skillspector-v0.1.0.json).
 
 The final instruction refinement makes workflow fidelity explicit, keeps supplied-evidence reviews narrow, and separates implementation completion from public-release decisions. Three fresh, explicitly instructed task workers exercised the affected behavior:
 

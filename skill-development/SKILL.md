@@ -11,6 +11,7 @@ Apply a reusable development process so the user does not have to restate scope 
 
 ## 1. Establish scope and authority
 
+- Before displaying source content, logs, or diffs, inspect potentially sensitive material through value-suppressed or locally redacted reads. Keep credential values out of tool output as well as artifacts; apply the same handling to synthetic examples. Read [security.md](references/security.md) before bulk inspection of credentials, environment files, or old context.
 - Resolve the target, intended users, requested change, and current lifecycle stage. Read applicable project instructions and existing resources before editing.
 - Determine private versus public distribution from the brief or project evidence. Ask if consequential and unresolved; do not change visibility by inference.
 - Reuse settled decisions and authorization. Ask only about missing facts or consequential choices; resolve ordinary implementation details autonomously.
