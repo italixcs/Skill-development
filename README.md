@@ -9,7 +9,7 @@ Reusable development rules for AI agent skills: research, scope, authoring, eval
 
 Set the process once, then ask your agent to apply it to the next skill. Skill Development coordinates existing tools and keeps the steps proportional to the task. Its intended benefit is less repeated instruction and supervision. Human time savings have not been measured.
 
-[Installation](docs/installation.md) · [Public-skill exercise](docs/public-exercise.md) · [Validation](docs/validation.md) · [Security](docs/security.md)
+[Installation](docs/installation.md) · [Public-skill exercise](docs/public-exercise.md) · [Validation](docs/validation.md) · [Security](docs/security.md) · [Release readiness](docs/release-readiness.md)
 
 ## See what it saves you writing
 
@@ -59,7 +59,7 @@ A private skill keeps essential correctness and execution-risk checks. A public 
 
 ## Current version and evidence
 
-**v0.1.1 is a usable early workflow.** It adds value suppression before potentially sensitive source content reaches tool output, with focused verification and a refreshed static scan. [Version notes](docs/releases/v0.1.1.md) describe the exact scope. The version badge does not certify stability or security.
+**v0.1.1 is a usable early workflow.** It adds value suppression before potentially sensitive source content reaches tool output, with focused verification and a refreshed static scan. [Version notes](docs/releases/v0.1.1.md) describe the exact scope. The version badge does not certify stability or security. The desktop exercise is a follow-up test; the initial release is prepared with the manual-invocation and installation limits below.
 
 The initial three-case pilot found **two ties and one narrow baseline preference**. A later prompt-substitution study found a tie with less task-specific text. These results support a concrete reuse example; they do not establish general output-quality or efficiency gains. [Validation record](docs/validation.md).
 

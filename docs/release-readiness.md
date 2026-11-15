@@ -1,37 +1,59 @@
 # Public release readiness
 
-The usable **v0.1.1 implementation is complete**. Public distribution can describe an early reusable workflow under its documented manual-invocation and compatibility limits. A version badge identifies the revision without asserting maturity. Keep the repository private until the owner authorizes visibility/publication.
+**v0.1.1 is prepared for an initial public release with manual-invocation and documentation-checked installation limits.** Preparation reviewed on 2026-11-15. The desktop exercise is a follow-up validation task, not a prerequisite for this narrower release. Native client discovery, cross-host reliability, and a complete live public-skill workflow remain unverified.
 
-Its purpose is reusable development rules, appropriate tool selection, and less repeated user instruction. Improved model capability, better outputs, faster execution, and quantified time savings are not release claims.
+The intended benefit is reusable development instructions and appropriate tool coordination. Better outputs, faster execution, measured human time savings, universal compatibility, and security certification are not release claims.
 
-## Prepared in this repository
+## Candidate and checks
 
-- Focused skill package, MIT license, and source provenance.
-- README with purpose, requirements, usage examples, a real pilot, and limitations.
-- Documentation-checked Codex/Claude Code installation routes with copy-only verification.
-- Public security summary and content-hash manifest for the scanned package.
-- Honest pilot results, plus a separate prompt-substitution example with both actual requests and a functionally comparable result.
-- Branding banner and an exact comparison graphic, clearly distinguished from screenshots.
-- A local public-skill exercise guide covering setup, tool checks, evaluation, scanning, and repository preparation.
-- Separation of installable instructions, public docs, and private raw evidence.
+Package source: [d14e97c](https://github.com/italixcs/Skill-development/tree/d14e97cce7b957922ee77beba6427ed4c2bba714/skill-development). Subsequent preparation changes affect repository documentation only. The full installable package is the 10-file `skill-development/` folder, including references, metadata, and license.
 
-## Publication and support boundaries
+Package identity: `8d99d42133a1417a12236728988d97d5594b6806d1207bdcaf9a2d41a2976780`.
 
-1. The [v0.1.1 version notes](releases/v0.1.1.md) are prepared. No public release or tag has been created.
-2. The current package has refreshed [security evidence](security.md), structural/copy checks, and focused [behavioral verification](validation.md). Preserve the declared scope and limits.
-3. Before any authorized publication, confirm the distributed bytes still match that evidence and review the final public files/history for private information and attribution.
-4. Obtain explicit authorization to change visibility and publish. Permission to commit/push to main does not authorize either.
-5. Native installation/discovery tests and broader live tool-coordination trials are follow-up support work. Do them before claiming those routes are runtime-tested or claiming measured supervision/time savings. Use the [public-skill exercise](public-exercise.md) to collect this evidence. The completed manual-invocation version can be described with its current limits.
+This identity and its definition are recorded with every file digest in the [v0.1.1 scan manifest](security/skillspector-v0.1.1.json). A final release must preserve that complete file set and those bytes, or refresh the affected evidence.
 
-No fixed dataset, statistical superiority claim, new scanner, plugin framework, or additional badges are required for honest distribution. Do not change the version badge to “stable” or “secure” based on these checks.
+| Check | Status and evidence |
+| --- | --- |
+| Package structure and resources | Passed the existing structural validator; required references resolve |
+| Installation copy behavior | Both documented personal-copy routes preserve all 10 files and refuse existing destinations, including broken symlinks |
+| Native installation/discovery | Unverified; routes are documentation-checked and copy-tested, not runtime-certified |
+| Task behavior | Focused checks and a one-pair prompt-substitution study recorded in [validation](validation.md); isolation and study limits retained |
+| Security scan | Existing 2026-11-13 SkillSpector 2.12.0 static scan still matches the unchanged package; all 10 files inspected, no exclusions or suppressions |
+| Security triage | One LOW EA3 match in an explicit prohibition, retained and triaged as a false positive; no reported critical/high findings; no semantic or containment test |
+| Licensing and attribution | Root/package MIT licenses match; bundled Skill Bench source verified against its recorded commit, with only its protocol link adjusted |
+| Public files and history | Reviewed the four commits reachable from main before this preparation: 43 distinct text blobs and one branding JPEG; no private run files tracked and no obvious credential/signed-URL/account-path patterns detected |
+| Documentation and visuals | Purpose, installation, examples, both comparison prompts, scan limits, and release text prepared; banner/SVG received local image inspection; native GitHub responsive/light/dark rendering unverified |
+| Live public-skill exercise | Deferred until the owner can use a desktop; [setup and prompts](public-exercise.md) are ready |
+| Public visibility and release | Not performed; explicit authorization still required |
 
-## Suggested GitHub metadata
+The history review is a bounded author/controller review, not a forensic audit or proof that no sensitive information exists. It covers reachable main history, not inaccessible or unreachable Git objects. The new preparation diff is reviewed separately before saving. Static scanning and local file checks do not certify safety or cross-host operation.
 
-Prepared values; not an indication that settings were applied:
+## Licensing and distribution
+
+Original project material is MIT-licensed. Skill Bench instructions are reused from the owner's [source revision](https://github.com/italixcs/Skill-Bench/tree/2d3b596b3c7d28b92d840e898a0c84e60b2f5577), with redistribution authorization recorded in [decisions](decisions.md). That snapshot has no separate license file in its root or skill folder; do not describe it as independently verified upstream MIT licensing. The package includes this project's MIT license and preserves the source attribution.
+
+NVIDIA SkillSpector, Repo Cleaner, native authoring tools, and research connectors are not bundled executable dependencies. They retain their own terms and must be available separately when needed. Skill Bench instructions are bundled; a separate Skill Bench installation is unnecessary.
+
+Use GitHub's ordinary source archive for the release. Users install the complete `skill-development/` subfolder. No custom installer, executable, extra release archive, or paid inference service is required by the package. Account limits and externally configured tools still apply.
+
+## Prepared publication handoff
+
+- Version/tag: `v0.1.1`.
+- Release title: **Skill Development v0.1.1 — reusable skill development workflow**.
+- Release body: [prepared release notes](releases/v0.1.1.md), using absolute repository links so they also work on a GitHub release page.
+- Target: the reviewed preparation commit reported in the handoff; do not create the tag against an unchecked moving branch head.
+- Assets: normal GitHub source archives; no additional binaries or attachments.
+- Compatibility statement: manually exercised instruction reading; Codex/Claude Code routes documentation-checked and copy-tested; native discovery and full client workflows unverified.
+
+When publication is authorized, recheck the target commit and package identity, make the repository public only as authorized, then create the tag/release at that exact commit. Read back visibility, tag target, release text, and source package contents. No publication or visibility change is authorized merely by this checklist. Do not replace the version badge with “stable” or “secure” based on these checks.
+
+## GitHub presentation values
+
+These values are prepared, not applied. Current About text and topics were inspected; settings were left unchanged.
 
 - About: `Reusable development rules for AI agent skills: scope, tool selection, evaluation, security review, and release preparation.`
-- Topics: `agent-skills`, `ai-agents`, `developer-tools`, `workflow`, `skill-development`, `evaluation`
+- Suggested topics: `agent-skills`, `ai-agents`, `developer-tools`, `workflow`, `skill-development`, `evaluation`, `codex`, `claude-code`.
 - Homepage: leave unset unless a real documentation site exists.
-- Social preview: optional; the README banner is prepared, but no GitHub social-preview setting was applied.
+- Social preview: optional; the README banner exists, but no GitHub social-preview setting was applied.
 
 [Repository settings](https://github.com/italixcs/Skill-development/settings)

@@ -51,3 +51,9 @@ Publish both actual task prompts and the comparable outcome as evidence of reusa
 The synthetic study exposed a handling gap: final-file cleanup does not undo a value already printed in tool output. Require value suppression before inspection and record this as a privacy refinement, with focused verification and a fresh package scan. Keep the original study bound to v0.1.0.
 
 Use a disposable local release-note-review project for the next public-workflow exercise. Prepare licensing, evaluation, scanning, and presentation without making any repository public or publishing a release.
+
+## Initial public-release preparation — 2026-11-15
+
+The owner cannot currently run the desktop exercise and requested release preparation. Keep v0.1.1 package bytes unchanged and prepare an initial release with manual-invocation and documentation-checked installation claims. Defer the desktop exercise without presenting it as completed or promising native support. No visibility change, tag, or release is authorized by preparation alone.
+
+Review existing reachable history and licensing provenance, preserve the matched static scan, and prepare release-page text and exact GitHub presentation values. The bundled Skill Bench instruction/protocol content matches the recorded source commit except for the local protocol link. Its source snapshot has no separate root/package license; rely on the owner's previously recorded redistribution authorization and this project's retained MIT license, without inventing an upstream license claim.

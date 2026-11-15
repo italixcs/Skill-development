@@ -11,6 +11,14 @@ git clone https://github.com/italixcs/Skill-development.git
 cd Skill-development
 ```
 
+For the exact package reviewed for v0.1.1, after cloning you can select its immutable source revision:
+
+```sh
+git checkout --detach d14e97cce7b957922ee77beba6427ed4c2bba714
+```
+
+The later release-preparation documentation does not change that package. This pins the reviewed instructions instead of following future changes on main.
+
 While the repository is private, this requires authorized GitHub access. Downloading a repository archive is an alternative. Inspect the instructions before installing.
 
 ## Codex CLI — personal local skill
