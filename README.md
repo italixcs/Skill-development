@@ -1,7 +1,4 @@
-<picture>
-  <source media="(max-width: 620px)" srcset="docs/assets/banner-mobile.svg" />
-  <img src="docs/assets/banner.svg" alt="Skill Development in a monochrome terminal, showing a branching prompt logo, public and private workflow paths, and a Claude Code example prompt." />
-</picture>
+![Skill Development terminal banner with a branching workflow logo and public and private skill development paths.](docs/assets/skill-development-banner.png)
 
 # Skill Development
 
