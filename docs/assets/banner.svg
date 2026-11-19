@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="436" viewBox="0 0 1280 436" font-family="DejaVu Sans Mono, monospace">
+  <title>Skill Development terminal banner</title>
+  <desc>An illustrated terminal with a pixel branching-prompt logo, a public and private workflow, and a Claude Code example prompt.</desc>
+  <rect x="1" y="1" width="1278" height="434" rx="21" fill="#101010" stroke="#444"/>
+  <clipPath id="body"><rect x="2" y="2" width="1276" height="432" rx="20"/></clipPath>
+  <g clip-path="url(#body)">
+  <rect x="1" y="1" width="1278" height="57" rx="0" fill="#1b1b1b"/>
+  <path d="M1 57H1279" stroke="#343434"/>
+  <circle cx="26" cy="29" r="4" fill="#d9d9d9"/><circle cx="44" cy="29" r="4" fill="#898989"/><circle cx="62" cy="29" r="4" fill="#575757"/>
+  <text x="640.0" y="36" fill="#b5b5b5" font-size="20" font-weight="400" text-anchor="middle">~/skill-development</text>
+  </g>
+  <g transform="translate(34 83)"><rect width="256" height="256" rx="17" fill="#efefef"/><path d="M59 90H77V108H95V126H113V144H95V162H77V180H59V162H77V144H95V126H77V108H59Z" fill="#111"/><path d="M125 126H151V86H180V76H199V106H180V102H167V152H180V148H199V178H180V168H151V144H125Z" fill="#111"/></g>
+  <g shape-rendering="crispEdges">
+    <path d="M331 92h36v9h-36z M322 101h9v9h-9z M322 110h9v9h-9z M331 119h27v9h-27z M358 128h9v9h-9z M358 137h9v9h-9z M322 146h36v9h-36z" fill="#f3f3f3"/>
+    <path d="M376 92h9v9h-9z M412 92h9v9h-9z M376 101h9v9h-9z M403 101h9v9h-9z M376 110h9v9h-9z M394 110h9v9h-9z M376 119h18v9h-18z M376 128h9v9h-9z M394 128h9v9h-9z M376 137h9v9h-9z M403 137h9v9h-9z M376 146h9v9h-9z M412 146h9v9h-9z" fill="#f3f3f3"/>
+    <path d="M430 92h45v9h-45z M448 101h9v9h-9z M448 110h9v9h-9z M448 119h9v9h-9z M448 128h9v9h-9z M448 137h9v9h-9z M430 146h45v9h-45z" fill="#f3f3f3"/>
+    <path d="M484 92h9v9h-9z M484 101h9v9h-9z M484 110h9v9h-9z M484 119h9v9h-9z M484 128h9v9h-9z M484 137h9v9h-9z M484 146h45v9h-45z" fill="#f3f3f3"/>
+    <path d="M538 92h9v9h-9z M538 101h9v9h-9z M538 110h9v9h-9z M538 119h9v9h-9z M538 128h9v9h-9z M538 137h9v9h-9z M538 146h45v9h-45z" fill="#f3f3f3"/>
+    <path d="M619 92h36v9h-36z M619 101h9v9h-9z M655 101h9v9h-9z M619 110h9v9h-9z M655 110h9v9h-9z M619 119h9v9h-9z M655 119h9v9h-9z M619 128h9v9h-9z M655 128h9v9h-9z M619 137h9v9h-9z M655 137h9v9h-9z M619 146h36v9h-36z" fill="#d4d4d4"/>
+    <path d="M673 92h45v9h-45z M673 101h9v9h-9z M673 110h9v9h-9z M673 119h36v9h-36z M673 128h9v9h-9z M673 137h9v9h-9z M673 146h45v9h-45z" fill="#d4d4d4"/>
+    <path d="M727 92h9v9h-9z M763 92h9v9h-9z M727 101h9v9h-9z M763 101h9v9h-9z M727 110h9v9h-9z M763 110h9v9h-9z M727 119h9v9h-9z M763 119h9v9h-9z M727 128h9v9h-9z M763 128h9v9h-9z M736 137h9v9h-9z M754 137h9v9h-9z M745 146h9v9h-9z" fill="#d4d4d4"/>
+    <path d="M781 92h45v9h-45z M781 101h9v9h-9z M781 110h9v9h-9z M781 119h36v9h-36z M781 128h9v9h-9z M781 137h9v9h-9z M781 146h45v9h-45z" fill="#d4d4d4"/>
+    <path d="M835 92h9v9h-9z M835 101h9v9h-9z M835 110h9v9h-9z M835 119h9v9h-9z M835 128h9v9h-9z M835 137h9v9h-9z M835 146h45v9h-45z" fill="#d4d4d4"/>
+    <path d="M898 92h27v9h-27z M889 101h9v9h-9z M925 101h9v9h-9z M889 110h9v9h-9z M925 110h9v9h-9z M889 119h9v9h-9z M925 119h9v9h-9z M889 128h9v9h-9z M925 128h9v9h-9z M889 137h9v9h-9z M925 137h9v9h-9z M898 146h27v9h-27z" fill="#d4d4d4"/>
+    <path d="M943 92h36v9h-36z M943 101h9v9h-9z M979 101h9v9h-9z M943 110h9v9h-9z M979 110h9v9h-9z M943 119h36v9h-36z M943 128h9v9h-9z M943 137h9v9h-9z M943 146h9v9h-9z" fill="#d4d4d4"/>
+    <path d="M997 92h9v9h-9z M1033 92h9v9h-9z M997 101h18v9h-18z M1024 101h18v9h-18z M997 110h9v9h-9z M1015 110h9v9h-9z M1033 110h9v9h-9z M997 119h9v9h-9z M1015 119h9v9h-9z M1033 119h9v9h-9z M997 128h9v9h-9z M1033 128h9v9h-9z M997 137h9v9h-9z M1033 137h9v9h-9z M997 146h9v9h-9z M1033 146h9v9h-9z" fill="#d4d4d4"/>
+    <path d="M1051 92h45v9h-45z M1051 101h9v9h-9z M1051 110h9v9h-9z M1051 119h36v9h-36z M1051 128h9v9h-9z M1051 137h9v9h-9z M1051 146h45v9h-45z" fill="#d4d4d4"/>
+    <path d="M1105 92h9v9h-9z M1141 92h9v9h-9z M1105 101h18v9h-18z M1141 101h9v9h-9z M1105 110h9v9h-9z M1123 110h9v9h-9z M1141 110h9v9h-9z M1105 119h9v9h-9z M1132 119h18v9h-18z M1105 128h9v9h-9z M1141 128h9v9h-9z M1105 137h9v9h-9z M1141 137h9v9h-9z M1105 146h9v9h-9z M1141 146h9v9h-9z" fill="#d4d4d4"/>
+    <path d="M1159 92h45v9h-45z M1177 101h9v9h-9z M1177 110h9v9h-9z M1177 119h9v9h-9z M1177 128h9v9h-9z M1177 137h9v9h-9z M1177 146h9v9h-9z" fill="#d4d4d4"/>
+  </g>
+  <text x="322" y="193" fill="#f3f3f3" font-size="26" font-weight="400" text-anchor="start">A repeatable workflow for building agent skills.</text>
+  <path d="M322 215H1246" stroke="#343434"/>
+  <text x="322" y="245" fill="#f3f3f3" font-size="23" font-weight="700" text-anchor="start">PUBLIC RELEASE</text>
+  <text x="786" y="245" fill="#f3f3f3" font-size="23" font-weight="700" text-anchor="start">PRIVATE USE</text>
+  <path d="M753 233v96" stroke="#343434"/>
+  <text x="322" y="273" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="346" y="273" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Scope, author, and evaluate</text>
+  <text x="322" y="299" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="346" y="299" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Scan and verify the package</text>
+  <text x="322" y="325" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="346" y="325" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Prepare installation and docs</text>
+  <text x="786" y="273" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="810" y="273" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Scope and author</text>
+  <text x="786" y="299" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="810" y="299" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Check behavior and execution risk</text>
+  <text x="786" y="325" fill="#949494" font-size="22" font-weight="400" text-anchor="start">›</text>
+  <text x="810" y="325" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Keep the deliverable local</text>
+  <rect x="34" y="360" width="1212" height="52" rx="5" fill="#1e1e1e" stroke="#343434"/>
+  <rect x="34" y="360" width="3" height="52" rx="0" fill="#f3f3f3"/>
+  <text x="55" y="393" fill="#f3f3f3" font-size="25" font-weight="700" text-anchor="start">›</text>
+  <text x="84" y="393" fill="#f3f3f3" font-size="24" font-weight="700" text-anchor="start">/skill-development</text>
+  <text x="366" y="393" fill="#b5b5b5" font-size="24" font-weight="400" text-anchor="start">Review this skill for public release.</text>
+  <rect x="904" y="374" width="11" height="24" rx="0" fill="#a7a7a7"/>
+</svg>

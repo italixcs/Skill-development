@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" font-family="DejaVu Sans Mono, monospace">
+  <title>Skill Development logo</title>
+  <desc>A pixel terminal prompt followed by a line that forks into two endpoints.</desc>
+  <rect width="256" height="256" rx="17" fill="#efefef"/><path d="M59 90H77V108H95V126H113V144H95V162H77V180H59V162H77V144H95V126H77V108H59Z" fill="#111"/><path d="M125 126H151V86H180V76H199V106H180V102H167V152H180V148H199V178H180V168H151V144H125Z" fill="#111"/>
+</svg>

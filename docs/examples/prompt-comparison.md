@@ -2,7 +2,10 @@
 
 A small prompt-substitution study on 2026-11-13. Project Memory was the skill being revised; Skill Development was the reusable development workflow.
 
-![Two actual task requests: a 309-word manual brief and a 54-word request with Skill Development. A blind reviewer judged the delivered results functionally comparable.](../assets/prompt-comparison.svg)
+<picture>
+  <source media="(max-width: 620px)" srcset="../assets/prompt-comparison-mobile.svg" />
+  <img src="../assets/prompt-comparison.svg" alt="Terminal comparison showing the full 54-word request with Skill Development and the opening excerpt of the 309-word manual brief. A blind reviewer judged the deliverables functionally comparable." />
+</picture>
 
 ## Result
 

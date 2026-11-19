@@ -1,11 +1,19 @@
 # Visual asset provenance
 
-## banner.jpg
+## Logo and terminal banner
 
-AI-generated branding illustration, not a product screenshot or evidence of a completed workflow. Generated on 2026-11-13 with the built-in image-generation tool, then exported as a progressive JPEG: 2172 × 724 pixels, 183,446 bytes. The source PNG is retained outside this repository.
+[Skill Development logo](skill-development-logo.svg) is an original pixel prompt whose cursor forks into the public-release and private-use paths. The banner pairs this mark with drawn pixel lettering and the two paths described in [the skill instructions](../../skill-development/SKILL.md).
 
-Design direction: a wide editorial banner with warm off-white paper, charcoal typography, the exact title “Skill Development”, subtitle “A reusable workflow for building AI skills”, and a restrained stack of instruction pages. A targeted image edit removed upward bars and a flag; the final paper glyph is neutral. The illustration makes no performance or compatibility claim.
+[Wide banner](banner.svg) · [Compact banner](banner-mobile.svg)
 
-## prompt-comparison.svg
+The supplied layout informed the logo placement and prompt row. The [italixcs profile README](https://github.com/italixcs/italixcs) informed the pixel lettering and terminal frame, and the supplied OpenCode reference informed the monochrome prompt styling. The SVGs depict an illustrated prompt for Claude Code.
 
-Editable SVG typesetting of the actual task prompts in [the comparison record](../examples/prompt-comparison.md). The short request is complete; the manual request is explicitly labeled as an excerpt. The full prompts and methodology are available as selectable text in that record. This is a comparison graphic, not a captured agent interface. It reports one observed outcome and prompt word counts; it does not depict measured time savings or total model context.
+## Prompt comparison
+
+[Wide comparison](prompt-comparison.svg) · [Stacked comparison](prompt-comparison-mobile.svg)
+
+The SVGs typeset the complete short request and the opening paragraph of the manual brief from the [Project Memory comparison record](../examples/prompt-comparison.md). The original wording and word counts come from that record. The graphic recreates the prompt texts in terminal styling. The recorded result covers one blind-reviewed task pair.
+
+## Skill review pets
+
+[Pixel-art scene](skill-review-pets.png) generated from the supplied Codex and Claude mascot references. The blue pet types at a checklist monitor while the orange pet brings a document. The PNG has a transparent background. The scene illustrates the review workflow.

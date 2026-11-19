@@ -19,7 +19,7 @@ git checkout --detach d14e97cce7b957922ee77beba6427ed4c2bba714
 
 The later release-preparation documentation does not change that package. This pins the reviewed instructions instead of following future changes on main.
 
-While the repository is private, this requires authorized GitHub access. Downloading a repository archive is an alternative. Inspect the instructions before installing.
+You can also download a repository archive. Inspect the instructions before installing.
 
 ## Codex CLI — personal local skill
 

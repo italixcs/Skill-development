@@ -1,49 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1150" viewBox="0 0 1200 1150" role="img" aria-labelledby="title desc">
-<title id="title">Project Memory prompt comparison</title>
-<desc id="desc">309-word manual task brief versus a 54-word request plus Skill Development. Same shared setup and tools. One blind review found functionally comparable deliverables. Manual text is an excerpt; the linked Markdown example contains both full prompts.</desc>
-<rect width="1200" height="1150" rx="16" fill="#f5f4f0"/>
-<text x="42" y="58" fill="#58605c" font-family="sans-serif" font-size="17" letter-spacing="2">ONE TASK · TWO REQUESTS · BLIND ARTIFACT REVIEW</text>
-<text x="42" y="114" fill="#17201c" font-family="sans-serif" font-size="40" font-weight="700">Project Memory, with less repeated briefing</text>
-<rect x="42" y="156" width="544" height="818" rx="12" fill="#ffffff" stroke="#d9ddd9"/>
-<text x="68" y="201" fill="#17201c" font-family="sans-serif" font-size="23" font-weight="600">Manual workflow brief</text>
-<text x="68" y="264" fill="#17201c" font-family="sans-serif" font-size="48" font-weight="700">309 words</text>
-<text x="68" y="301" fill="#66706a" font-family="sans-serif" font-size="16" font-weight="400">Excerpt from the actual task prompt</text>
-<text x="68" y="343" fill="#35403a" font-family="sans-serif" font-size="18">Improve the supplied Project Memory skill for</text>
-<text x="68" y="368" fill="#35403a" font-family="sans-serif" font-size="18">refreshing stale project context. Keep it</text>
-<text x="68" y="393" fill="#35403a" font-family="sans-serif" font-size="18">compact, distinguish current evidence from</text>
-<text x="68" y="418" fill="#35403a" font-family="sans-serif" font-size="18">historical decisions, preserve explicit user</text>
-<text x="68" y="443" fill="#35403a" font-family="sans-serif" font-size="18">constraints, and prevent secret leakage. Produce</text>
-<text x="68" y="468" fill="#35403a" font-family="sans-serif" font-size="18">a usable local revision, apply it to the</text>
-<text x="68" y="493" fill="#35403a" font-family="sans-serif" font-size="18">supplied fixture, run relevant checks, and give</text>
-<text x="68" y="518" fill="#35403a" font-family="sans-serif" font-size="18">a concise handoff. Do not publish.</text>
-<text x="68" y="555" fill="#35403a" font-family="sans-serif" font-size="18">Before editing, inspect the current</text>
-<text x="68" y="580" fill="#35403a" font-family="sans-serif" font-size="18">instructions, referenced files, fixture</text>
-<text x="68" y="605" fill="#35403a" font-family="sans-serif" font-size="18">repository, and existing context-file</text>
-<text x="68" y="630" fill="#35403a" font-family="sans-serif" font-size="18">convention. Identify the specific gap and reuse</text>
-<text x="68" y="655" fill="#35403a" font-family="sans-serif" font-size="18">existing resources; do not build a new memory</text>
-<text x="68" y="680" fill="#35403a" font-family="sans-serif" font-size="18">framework. Research local evidence first. Use</text>
-<text x="68" y="705" fill="#35403a" font-family="sans-serif" font-size="18">GitHub MCP for repository questions or Context7</text>
-<text x="68" y="730" fill="#35403a" font-family="sans-serif" font-size="18">for library documentation only if they resolve a</text>
-<text x="68" y="755" fill="#35403a" font-family="sans-serif" font-size="18">real uncertainty; use authoritative sources when</text>
-<text x="68" y="780" fill="#35403a" font-family="sans-serif" font-size="18">needed.</text>
-<rect x="614" y="156" width="544" height="818" rx="12" fill="#ffffff" stroke="#d9ddd9"/>
-<text x="640" y="201" fill="#17201c" font-family="sans-serif" font-size="23" font-weight="600">Request + Skill Development</text>
-<text x="640" y="264" fill="#205b43" font-family="sans-serif" font-size="48" font-weight="700">54 words</text>
-<text x="640" y="301" fill="#66706a" font-family="sans-serif" font-size="16" font-weight="400">Complete task request</text>
-<text x="640" y="343" fill="#35403a" font-family="sans-serif" font-size="18">Use Skill Development to improve the supplied</text>
-<text x="640" y="368" fill="#35403a" font-family="sans-serif" font-size="18">Project Memory skill for refreshing stale</text>
-<text x="640" y="393" fill="#35403a" font-family="sans-serif" font-size="18">project context. Keep it compact, distinguish</text>
-<text x="640" y="418" fill="#35403a" font-family="sans-serif" font-size="18">current evidence from historical decisions,</text>
-<text x="640" y="443" fill="#35403a" font-family="sans-serif" font-size="18">preserve explicit user constraints, and prevent</text>
-<text x="640" y="468" fill="#35403a" font-family="sans-serif" font-size="18">secret leakage. Produce a usable local revision,</text>
-<text x="640" y="493" fill="#35403a" font-family="sans-serif" font-size="18">apply it to the supplied fixture, run relevant</text>
-<text x="640" y="518" fill="#35403a" font-family="sans-serif" font-size="18">checks, and give a concise handoff. Do not</text>
-<text x="640" y="543" fill="#35403a" font-family="sans-serif" font-size="18">publish.</text>
-<line x1="640" y1="598" x2="1132" y2="598" stroke="#d9ddd9"/>
-<text x="640" y="634" fill="#66706a" font-family="sans-serif" font-size="17">The stored workflow supplies the process.</text>
-<text x="640" y="659" fill="#66706a" font-family="sans-serif" font-size="17">Both agents had the same project inputs,</text>
-<text x="640" y="684" fill="#66706a" font-family="sans-serif" font-size="17">native authoring tools and permissions.</text>
-<text x="42" y="1026" fill="#17201c" font-family="sans-serif" font-size="28" font-weight="700">Blind verdict: tie · functionally comparable</text>
-<text x="42" y="1068" fill="#58605c" font-family="sans-serif" font-size="18">83% less task-prompt text in this one example. Stored instructions add model context.</text>
-<text x="42" y="1101" fill="#58605c" font-family="sans-serif" font-size="18">Shared setup excluded from counts. No human preparation time was measured.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="636" viewBox="0 0 1280 636" font-family="DejaVu Sans Mono, monospace">
+  <title>Project Memory task-prompt comparison</title>
+  <desc>The complete 54-word request with Skill Development and an excerpt from the 309-word manual brief. One blind review judged the delivered results functionally comparable.</desc>
+  <rect x="1" y="1" width="1278" height="634" rx="21" fill="#101010" stroke="#444"/>
+  <clipPath id="body"><rect x="2" y="2" width="1276" height="632" rx="20"/></clipPath>
+  <g clip-path="url(#body)">
+  <rect x="1" y="1" width="1278" height="57" rx="0" fill="#1b1b1b"/>
+  <path d="M1 57H1279" stroke="#343434"/>
+  <circle cx="26" cy="29" r="4" fill="#d9d9d9"/><circle cx="44" cy="29" r="4" fill="#898989"/><circle cx="62" cy="29" r="4" fill="#575757"/>
+  <text x="640.0" y="36" fill="#b5b5b5" font-size="20" font-weight="400" text-anchor="middle">~/project-memory / evaluation</text>
+  </g>
+  <text x="32" y="97" fill="#f3f3f3" font-size="30" font-weight="700" text-anchor="start">Compare two task prompts</text>
+  <text x="32" y="126" fill="#b5b5b5" font-size="21" font-weight="400" text-anchor="start">Same Project Memory revision · 13 Nov 2026</text>
+  <rect x="32" y="146" width="598" height="415" rx="10" fill="#181818" stroke="#3a3a3a"/>
+  <text x="53" y="176" fill="#b5b5b5" font-size="22" font-weight="700" text-anchor="start">MANUAL BRIEF</text>
+  <text x="53" y="223" fill="#f3f3f3" font-size="43" font-weight="700" text-anchor="start">309 words</text>
+  <text x="609" y="221" fill="#949494" font-size="20" font-weight="400" text-anchor="end">opening excerpt</text>
+  <path d="M52 239H610" stroke="#343434"/>
+  <text x="53" y="268" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">Improve the supplied Project Memory skill</text>
+  <text x="53" y="297" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">for refreshing stale project context. Keep</text>
+  <text x="53" y="326" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">it compact, distinguish current evidence</text>
+  <text x="53" y="355" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">from historical decisions, preserve explicit</text>
+  <text x="53" y="384" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">user constraints, and prevent secret</text>
+  <text x="53" y="413" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">leakage. Produce a usable local revision,</text>
+  <text x="53" y="442" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">apply it to the supplied fixture, run</text>
+  <text x="53" y="471" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">relevant checks, and give a concise handoff.</text>
+  <text x="53" y="500" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">Do not publish.</text>
+  <rect x="650" y="146" width="598" height="415" rx="10" fill="#181818" stroke="#3a3a3a"/>
+  <text x="671" y="176" fill="#b5b5b5" font-size="22" font-weight="700" text-anchor="start">WITH SKILL DEVELOPMENT</text>
+  <text x="671" y="223" fill="#f3f3f3" font-size="43" font-weight="700" text-anchor="start">54 words</text>
+  <text x="1227" y="221" fill="#949494" font-size="20" font-weight="400" text-anchor="end">full prompt</text>
+  <path d="M670 239H1228" stroke="#343434"/>
+  <text x="671" y="268" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">Use Skill Development to improve the</text>
+  <text x="671" y="297" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">supplied Project Memory skill for refreshing</text>
+  <text x="671" y="326" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">stale project context. Keep it compact,</text>
+  <text x="671" y="355" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">distinguish current evidence from historical</text>
+  <text x="671" y="384" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">decisions, preserve explicit user</text>
+  <text x="671" y="413" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">constraints, and prevent secret leakage.</text>
+  <text x="671" y="442" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">Produce a usable local revision, apply it to</text>
+  <text x="671" y="471" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">the supplied fixture, run relevant checks,</text>
+  <text x="671" y="500" fill="#f3f3f3" font-size="21" font-weight="400" text-anchor="start">and give a concise handoff. Do not publish.</text>
+  <text x="32" y="591" fill="#f3f3f3" font-size="25" font-weight="700" text-anchor="start">Result  ›  Functionally comparable</text>
+  <text x="32" y="616" fill="#b5b5b5" font-size="19" font-weight="400" text-anchor="start">One blind review · Task-prompt word counts</text>
 </svg>
